@@ -1,0 +1,49 @@
+@import '../../styles/$vars.scss';
+
+.InputRoot {
+    width: 100%;
+   height: 40px;
+   padding: 0 16px;
+   line-height: 1;
+
+   color: var(--gray);
+   background-color: transparent;
+   border: 1px solid var(--primary200);
+   border-radius: 12px;
+
+   transition: all $transitionSpeed $transitionFunction;
+
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.InputWrapper {
+   height: 100%;
+   width: 100%;
+}
+
+.InputSize48{
+    height: 48px;
+}
+
+.InputLeft {
+    border-radius: 12px 0 0 12px;
+}
+.InputRight {
+    border-radius: 0 12px 12px 0;
+}
+
+.InputBefore {
+    white-space: nowrap;
+}
+
+.InputAfter {
+    white-space: nowrap;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.InputRootActive{
+    color: var(--primary200);
+}

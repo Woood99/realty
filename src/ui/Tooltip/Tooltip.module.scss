@@ -1,0 +1,25 @@
+.TooltipText {
+   position: absolute;
+   z-index: 1000;
+   
+   background-color: var(--dark);
+   box-shadow: 0 10px 32px rgba(40, 45, 60, 0.02), 0 2px 24px rgba(40, 45, 60, 0.02), 0 0 16px rgba(40, 45, 60, 0.04);
+   border-radius: 10px;
+   color: var(--white);
+   padding: 20px;
+   font-size: var(--small-fz);
+
+   pointer-events: none;
+}
+
+.TooltipElement {
+   position: absolute;
+   z-index: 1000;
+
+   background-color: var(--white);
+   box-shadow: 0 10px 32px rgba(40, 45, 60, .02), 0 2px 24px rgba(40, 45, 60, .02), 0 0 16px rgba(40, 45, 60, .04);
+   border-radius: 10px;
+   color: var(--dark);
+   padding: 20px;
+   font-size: var(--small-fz);
+}

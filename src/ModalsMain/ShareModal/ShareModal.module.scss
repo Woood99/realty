@@ -1,0 +1,33 @@
+@import '../../styles/$vars.scss';
+
+.root {
+   width: 450px;
+}
+
+.children {
+   padding-bottom: 24px;
+   margin-bottom: 16px;
+   border-bottom: 1px solid var(--primary100);
+}
+
+.shareAppItem {
+   padding: 0 16px;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   transition: all $transitionSpeed $transitionFunction;
+   border-radius: 12px;
+   svg {
+      fill: var(--blue);
+   }
+   @media (min-width: $desktop-min) {
+      &:hover {
+         background-color: var(--hover-primary);
+      }
+   }
+   &:not(:last-child) {
+      margin-bottom: 8px;
+   }
+}

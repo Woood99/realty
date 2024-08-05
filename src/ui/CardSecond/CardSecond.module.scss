@@ -1,0 +1,47 @@
+@import '../../styles/$vars.scss';
+
+.CardSecondRoot {
+   position: relative;
+}
+
+.CardSecondLink {
+   position: absolute;
+   inset: 0;
+   z-index: var(--z-index-start);
+}
+
+.CardSecondName {
+   display: block;
+   font-weight: 500;
+   color: var(--blue);
+}
+
+.CardSecondTerm {
+   margin-top: 4px;
+   margin-bottom: 8px;
+   display: block;
+   color: var(--primary500);
+}
+.cardSecondMeter {
+   color: var(--primary500);
+   line-height: 1;
+   margin-top: 4px;
+   margin-bottom: 16px;
+}
+
+.CardSecondContent {
+   padding: 16px 0 0;
+   position: relative;
+}
+
+.CardSecondBottom {
+   margin-top: auto;
+   border-top: 1px solid var(--primary100);
+   padding: 16px 0 0;
+}
+
+
+.CardSecondAddress{
+   margin-top: 5px;
+   color: var(--primary500);
+}

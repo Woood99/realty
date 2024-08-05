@@ -1,0 +1,31 @@
+@import '../../styles/$vars.scss'; 
+
+.FieldRowRoot{
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    @media (max-width:$desktop){
+         flex-direction: column;
+         gap: 12px; 
+    }
+}
+
+.FieldRowName{
+    margin-top: 12px;
+    width: var(--width-name);
+    flex: 0 0 var(--width-name);
+
+    line-height: 1;
+    @media (max-width:$desktop){
+         width: 100%;
+         flex: 0 0 100%; 
+    }
+}
+
+.FieldRowChildren{
+    max-width: var(--width-children);
+    width: 100%;
+    @media (max-width:$desktop){
+         max-width: 100%; 
+    }
+}

@@ -1,0 +1,26 @@
+.ThumbPhoto {
+   --size: 85px;
+   width: var(--size);
+   height: var(--size);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   border-radius: 12px;
+
+   &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: rgba(24, 26, 29, 0.0392156863);
+      border-radius: 12px;
+   }
+
+   img {
+      border-radius: 12px;
+      width: calc(var(--size) - 10px);
+      height: calc(var(--size) - 10px);
+      object-fit: contain;
+      background-color: transparent;
+   }
+}

@@ -1,0 +1,10 @@
+.BackButtonRoot{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--blue);
+    svg{
+        fill: currentColor;
+        transform: rotate(180deg);
+    }
+}

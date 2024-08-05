@@ -1,0 +1,31 @@
+.PresentCardRoot {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   position: relative;
+}
+
+.PresentCardInfo {
+   display: flex;
+   flex-direction: column;
+}
+
+.PresentCardDescr {
+   margin-top: 2px;
+   font-size: 12px;
+   color: var(--primary400);
+}
+
+.PresentCardSpec {
+   margin-top: 8px;
+   position: relative;
+   z-index: 1;
+}
+
+.PresentCardPrices {
+   margin-left: auto;
+   margin-right: 12px;
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}

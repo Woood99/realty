@@ -1,0 +1,46 @@
+.FilterButtonRoot {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 40px;
+   border-radius: 10px;
+
+   padding: 0 16px;
+
+   background-color: var(--white);
+   border: 1px solid var(--primary200);
+   color: var(--gray);
+
+
+   gap: 10px;
+
+   width: 145px;
+}
+
+.FilterButtonIcon {
+   stroke-width: 1.5px;
+   flex: 0 0 20px;
+
+   stroke: currentColor;
+   stroke-width: 1.5px;
+   fill: none;
+}
+
+.FilterButtonCount{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   --size: 18px;
+   width: var(--size);
+   height: var(--size);
+   flex: 0 0 var(--size);
+   border-radius: 50%;
+
+   font-size: 11px;
+   line-height: 1;
+
+   background-color: var(--red);
+   color: var(--white);
+}

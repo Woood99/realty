@@ -1,0 +1,12 @@
+.ElementOldPrice {
+   color: var(--primary400);
+   position: relative;
+   &::before {
+      content: '';
+      border-bottom: 1px solid currentColor;
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      transform: rotate(-5deg);
+   }
+}

@@ -1,0 +1,12 @@
+@import '../../../styles/$vars.scss';
+
+.BuildingСonstructionForm{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 8px;
+    grid-row-gap: 12px;
+    @media (max-width:$smallTablet-max){
+         grid-template-columns: 100%; 
+    }
+}

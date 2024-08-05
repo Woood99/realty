@@ -1,0 +1,51 @@
+@import '../../styles/$vars.scss';
+
+.CardSchemeRoot {
+   box-sizing: border-box;
+   height: 100%;
+   border: 1px solid var(--primary100);
+   box-shadow: none;
+   padding-bottom: 16px;
+   text-align: left;
+   border-radius: 12px;
+}
+
+.CardSchemeContent {
+   padding: 0 24px;
+}
+
+.CardSchemeImage {
+   width: 100%;
+   padding: 24px 32px;
+   min-height: 308px;
+   border-radius: 12px;
+}
+.CardSchemeImageIbg {
+   padding-bottom: 72%;
+}
+
+.CardSchemeBtn {
+   color: var(--blue);
+   background-color: rgba(0, 150, 255, 0.08);
+   height: 39px;
+   padding: 0 16px;
+
+   border-radius: 12px;
+   font-size: var(--small-fz);
+   font-weight: 500;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   transition: all $transitionSpeed $transitionFunction;
+}
+
+.CardSchemeAttr {
+   margin-top: 4px;
+   color: var(--primary400);
+
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}

@@ -1,0 +1,11 @@
+@import '../../styles/$vars.scss';
+
+.BannerWrapper{
+    display: grid;
+    grid-template-columns: 1fr 383px;
+    grid-column-gap: 12px;
+    grid-row-gap: 16px;
+    @media (max-width:$desktop){
+         grid-template-columns: 100%; 
+    }
+}

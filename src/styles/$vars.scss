@@ -1,0 +1,38 @@
+@use 'sass:math';
+
+$fontFamily: 'CoFoSans';
+$fontSize: 14;
+$minWidth: 320;
+$maxWidth: 1920;
+$contentWidth: 1190;
+$containerOffset: 16;
+$containerWidth: calc($contentWidth + ($containerOffset * 2));
+
+// main colors
+$bodyColor: #fff;
+$mainColor: #3d3d3d;
+
+// break points
+$desktop: $containerWidth + px;
+$desktop-min: ($containerWidth + 1) + px;
+$tablet-max: 1024px;
+$tablet-min: 1025px;
+
+$smallTablet-max: 768px;
+$smallTablet-min: 769px;
+
+$mobile-max: 576px;
+$mobile-min: 577px;
+
+$smallMobile-max: 480px;
+$smallMobile-min: 481px;
+
+// others vars
+$transitionSpeed: 0.2s;
+$transitionSpeedFast: 0.1s;
+$transitionFunction: ease-in-out;
+
+@function percent($px, $from) {
+   $result: math.div($px, $from) * 100%;
+   @return $result;
+}

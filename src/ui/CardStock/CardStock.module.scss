@@ -1,0 +1,47 @@
+@import '../../styles/$vars.scss';
+
+.CardStock {
+   position: relative;
+}
+
+.CardStockLink {
+   position: absolute;
+   inset: 0;
+   z-index: var(--z-index-start);
+}
+
+.CardStockImage {
+   padding-bottom: percent(207, 323);
+   border-radius: 12px;
+   overflow: hidden;
+   width: 100%;
+
+   img {
+      border-radius: 12px;
+   }
+}
+
+.CardStockTitle{
+   margin-bottom: 4px;
+}
+.CardStockName {
+margin-bottom: 8px;
+   color: var(--dark);
+}
+
+.CardStockDescr {
+   color: var(--dark);
+
+   display: -webkit-box;
+   overflow: hidden;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+}
+
+.CardStockContent{
+    padding-top: 16px;
+}
+
+.CardStockUser {
+   padding-top: 16px;
+}

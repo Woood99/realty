@@ -1,0 +1,36 @@
+.HistoryPriceContent{
+    margin-top: 16px;
+}
+
+.HistoryPriceItem{
+    display: flex;
+    align-items: center;
+    &:not(:last-child){
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid var(--primary200);
+    }
+}
+
+.HistoryPriceDate{
+    width: 100px;
+    color: var(--primary400);
+    
+    display: block;
+}
+
+.HistoryPriceMain{
+
+}
+
+.HistoryPriceStatusUp{
+    color: var(--red);
+    width: 120px;
+    display: block;
+}
+
+.HistoryPriceStatusDown{
+    color: var(--green);
+    width: 120px;
+    display: block;
+}

@@ -1,0 +1,29 @@
+@import '../../styles/$vars.scss';
+
+.BtnAction {
+   --size: 32px;
+
+   width: var(--size);
+   height: var(--size);
+   flex: 0 0 var(--size);
+   border-radius: 6px;
+   border: 1px solid var(--primary100);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.BtnActionText {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   color: var(--primary400);
+   transition: color $transitionSpeed $transitionFunction;
+   padding: 5px 12px;
+   font-weight: 400;
+   svg {
+      fill: currentColor;
+      pointer-events: none;
+   }
+}

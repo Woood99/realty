@@ -1,0 +1,61 @@
+.List{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.Badge {
+   cursor: pointer;
+   border-radius: 8px;
+   width: 30px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   svg {
+      width: 17px;
+      height: 17px;
+   }
+}
+
+.BadgeMortgage {
+   background: rgba(36, 202, 142, 0.2);
+   svg {
+      fill: #24ca8e;
+   }
+}
+
+.BadgeCash {
+   background: rgba(255, 227, 66, 0.2);
+   svg {
+      fill: #ffe342;
+   }
+}
+
+.BadgeCertificate {
+   background: rgba(252, 147, 147, 0.2);
+   svg {
+      fill: #fc9393;
+   }
+}
+
+.BadgeUrgently {
+   background: rgba(255, 27, 27, 0.2);
+   svg {
+      fill: #ff1b1b;
+   }
+}
+
+.BadgeMonthlyPayment {
+   background: rgba(148, 61, 189, 0.2);
+   svg {
+      fill: #943dbd;
+   }
+}
+
+.BadgeNoDownPayment {
+   background: rgba(45, 230, 85, 0.2);
+   svg {
+      fill: #2de655;
+   }
+}

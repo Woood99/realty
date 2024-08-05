@@ -1,0 +1,17 @@
+@import '../../../styles/$vars.scss';
+
+.BuildingInfoChars {
+   &:not(:last-child) {
+      margin-bottom: 32px;
+   }
+}
+
+.BuildingInfoCharsItems {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 68px;
+   grid-row-gap: 20px;
+   @media (max-width:$smallTablet-max){
+       grid-template-columns: 100%; 
+   }
+}

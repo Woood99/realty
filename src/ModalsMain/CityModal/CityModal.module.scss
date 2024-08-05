@@ -1,0 +1,23 @@
+.CityModalRoot {
+   width: 615px;
+}
+
+.CityModalItems {
+   margin-top: 24px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 10px;
+}
+
+.CityModalItem {
+   flex-grow: 1;
+   max-width: 65%;
+}
+
+
+.CityModalSave{
+    margin-top: 32px;
+    margin-left: auto;
+    padding: 0 40px;
+}

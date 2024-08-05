@@ -1,0 +1,58 @@
+@import '../../styles/$vars.scss';
+
+.Tag {
+   height: 40px;
+   padding: 0 16px;
+   gap: 8px;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   border-radius: 18px;
+   color: var(--dark);
+   background-color: var(--primary100);
+   max-width: 100%;
+   line-height: 1;
+
+   pointer-events: all;
+   font-weight: 500;
+
+   white-space: nowrap;
+
+   transition: all $transitionSpeed $transitionFunction;
+}
+
+.TagSmall {
+   padding: 0 12px;
+   height: 24px;
+   border-radius: 12px;
+   font-size: 12px;
+}
+
+.TagGreen {
+   background-color: rgba(36, 202, 142, 0.2);
+}
+
+.TagDarkGreen {
+   background-color: #cae9a1;
+}
+
+.TagPurple {
+   background-color: rgba(148, 61, 189, 0.2);
+}
+
+.TagYellow{
+   background-color: rgba(255, 227, 66, .2);
+}
+
+.TagSelect{
+   font-size: var(--default-fz);
+   background-color: var(--white);
+   border: 1px solid var(--primary200);
+   font-weight: 400;
+}
+
+.TagActive{
+   background-color: var(--blue);
+   color: var(--white);
+}
+

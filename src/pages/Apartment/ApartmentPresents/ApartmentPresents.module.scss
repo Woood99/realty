@@ -1,0 +1,12 @@
+.ApartmentPresentsCards {
+   display: flex;
+   flex-direction: column;
+   grid-row-gap: 12px;
+}
+
+.ApartmentPresentsCard {
+   padding: 16px 0;
+   &:not(:last-child) {
+      border-bottom: 1px solid var(--primary200);
+   }
+}

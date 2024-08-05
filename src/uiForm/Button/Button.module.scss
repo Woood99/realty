@@ -1,0 +1,82 @@
+@import '../../styles/$vars.scss';
+
+.ButtonMain {
+   height: 50px;
+   border-radius: 12px;
+
+   line-height: 1;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   white-space: nowrap;
+
+   transition: all $transitionSpeed $transitionFunction;
+
+   &:disabled {
+      pointer-events: none;
+      cursor: default;
+   }
+}
+
+.primary {
+   background-color: var(--blue);
+   color: var(--white);
+
+   font-weight: 500;
+   padding: 0 32px;
+
+   &:disabled {
+      background-color: var(--primary100);
+      box-shadow: none;
+   }
+   @media (min-width: $desktop-min) {
+      &:hover {
+         background-color: var(--blue-dark);
+      }
+   }
+}
+
+.secondary {
+   color: var(--dark);
+   background-color: var(--white);
+   border: 1px solid var(--primary200);
+
+   font-weight: 400;
+   padding: 0 32px;
+
+   &:disabled {
+      background-color: var(--white);
+      border: 1px solid var(--primary100);
+      color: #f2f2f2;
+   }
+
+   @media (min-width: $desktop-min) {
+      &:hover {
+         background-color: var(--blue);
+         color: var(--white);
+         border: 1px solid transparent;
+      }
+   }
+   &.ButtonActive {
+      color: var(--white);
+      background-color: var(--blue);
+      border: 1px solid var(--blue);
+   }
+}
+
+.sizeBig {
+   font-size: 18px;
+   height: 60px;
+}
+.sizeSmall {
+   height: 40px;
+   padding: 0 24px;
+   border-radius: 8px;
+}
+
+.size26 {
+   height: 26px;
+   padding: 0 16px;
+   font-size: var(--very-small-fz);
+}
